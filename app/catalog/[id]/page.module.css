@@ -1,0 +1,10 @@
+.container {
+  padding: 100px 20px 40px;
+  min-height: 100vh;
+  background: #f7f7f7;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}

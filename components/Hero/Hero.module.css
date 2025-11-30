@@ -1,0 +1,52 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('/Picture.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+  padding-bottom: 60px;
+}
+
+.inner {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: var(--font-accent);
+}
+
+.subtitle {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.5;
+}
+
+.heroBtn {
+  padding: 14px 32px;
+  background: var(--color-primary);
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.heroBtn:hover {
+  background: var(--color-primary-hover);
+}

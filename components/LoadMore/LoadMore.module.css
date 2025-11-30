@@ -1,0 +1,48 @@
+/* .buttonWrapper {
+  text-align: center;
+  padding: 40px 0 80px;
+}
+
+.button {
+  width: 140px;
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
+  background: #fff;
+  font-size: 16px;
+  color: #111;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+} */
+
+.wrapper {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.button {
+  width: 160px;
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid #3470ff;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  color: #3470ff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button:hover:not(:disabled) {
+  background: #3470ff;
+  color: white;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
